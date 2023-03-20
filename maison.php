@@ -13,7 +13,7 @@
         }
 
         public function surface(){
-            echo "<p>La surface de la maison".$this->nom."est égale à ".$this->longueur*$this->largeur." m²  et a ".$this->nbrEtage." étages</p>";
+            echo "<p>La surface de la maison ".$this->nom." est égale à ".($this->longueur*$this->largeur)*$this->nbrEtage." m²  et a ".$this->nbrEtage." étages</p>";
         }
 
         public function getNom(){
