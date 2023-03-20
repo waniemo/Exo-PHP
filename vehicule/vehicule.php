@@ -48,9 +48,9 @@
 
         public function plusRapide($vehicule2){
             if($this->vitesse < $vehicule2->vitesse){
-                return $vehicule2;
+                return $vehicule2->getNom();
             } else {
-                return $this->nomVehicule;
+                return $this->getNom();
             }
         }
 
